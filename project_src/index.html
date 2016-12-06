@@ -1,0 +1,134 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+        <!-- build:css style.min.css -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style_global.css">
+        <link rel="stylesheet" href="css/style_custom.css">
+        <link rel="stylesheet" href="css/style_utilities.css">
+        <link rel="stylesheet" href="css/demo.css">
+        <!-- /build -->
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="#" title="home">Home</a></li>
+                    <li><a href="#" title="documentation">Docs</a></li>
+                    <li><a href="#" title="download">Download</a></li>
+                </ul>
+            </div>
+        </nav>
+        <header>
+            <div class="container">
+                <h1>simpleSASS<br><small>very simple SASS Boilerplate based on HTML5 Boilerplate</small></h1>
+            </div>
+        </header>
+        
+        <div class="container">
+            <h2 class="marg-top">Overview</h2>
+            <p>
+                <strong>simpleSASS</strong> is a quite easy to use boilerplate for website styling setup.<br>
+                Using this boilerplate you will ready to start a new SASS project in 5 minutes.
+            </p>
+            
+            <h2 class="marg-top">Package</h2>
+            <code>
+                <ul>
+                    <li>css/normailize.css</li>
+                    <li>css/simpleSass.css</li>
+                    <li>css/simpleSass_custom.css</li>
+                    <li>css/simpleSass_global.css</li>
+                    <li>css/simpleSass_utilities.css</li>
+                    <li>js/main.js</li>
+                    <li>js/plugin.js</li>
+                    <li>js/vendor/jquery-1.12.0.min.js</li>
+                    <li>js/vendor/modernizr-2.8.3.min.js</li>
+                    <li><strong>sass/_mixins.scss</strong></li>
+                    <li><strong>sass/_variables.scss</strong></li>
+                    <li><strong>sass/simpleSass_custom.scss</strong></li>
+                    <li><strong>sass/simpleSass_global.scss</strong></li>
+                    <li><strong>sass/simpleSass_utilities.scss</strong></li>
+                    <li>favicon.ico</li>
+                    <li>index.html</li>
+                    <li>tile-wide.png</li>
+                    <li>tile.png</li>
+                    <li>Gruntfile.js</li>
+                    <li>package.json</li>
+                </ul>
+            </code>
+            <h2 class="marg-top">How to use</h2>
+            
+            <p>
+                <strong>simpleSASS</strong> is just a simple HTML Boilerplate based on HTML5 Boilerplate.<br>
+                This package will help you to start easy any new projects you want, 
+                and it can be used simply editing the HTML/JS and SASS files.<br>
+                simpleSASS can be used also as a new Grunt project.<br>
+                In order to customize the Grunt project, according your needs, you can customize the <em>package.json</em> and <em>Gruntfile.js</em> files.<br>
+            </p>
+            <p> 
+                To style your new project you can code the .scss files contained inside the "sass" project directory.<br>
+                Remember that sass files need to be compiled using software as Compass, Grunt or other similar.<br>
+                You can use each sass processor you want, but only Grunt is ready to use on this boilerplate.
+            </p>
+            <h4>index.html file</h4>
+            <p>
+                <strong>index.html</strong> is the html main file. It's only a demo file (that contains this documentation)
+                that you can use as a new file model.
+            </p>
+            
+            <h2 class="marg-top">Using with Grunt</h2>
+            <p>
+                <strong>simpleSASS</strong> is ready to be used with Grunt (the javascript task runner) for SASS compiling. <a href="#" title="Grunt">See more Here</a>.<br>
+                The Grunt Contribs used for this project are <strong>grunt-contrib-sass</strong> and <strong>grunt-contrib-watch</strong> but you can add all modueles you want and custmize the Gruntfile.js as you need.
+            </p>
+            <p>
+                Download package and open the main directory on your terminal. The simpleSASS folder will be your new project main dir.<br>
+                Now be sure that you already have a local Grunt installation on your project. If not install it typing:<br>
+                <code>$ npm install grunt --save</code><br>
+                When you have Grunt installed type the following command on you terminal in order to install the required Grunt modules:<br>
+                <code>$ npm install</code><br>
+                Once Grunt modules are installed, you will ready to start coding and compiling SASS files simply typing "Grunt" on your console.
+                <br>
+                <code>$ Grunt</code><br>
+                Grunt default task will launch the first SASS compile and and the watch task that will autocompile all SASS files each time you will save .scss file.
+            </p>
+            <p>
+                
+            </p>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <!-- build:css main.min.js -->
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <!-- /build -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>

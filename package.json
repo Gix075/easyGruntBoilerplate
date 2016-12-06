@@ -1,0 +1,46 @@
+{
+  "name": "easygrunt",
+  "version": "1.0.0",
+  "description": "Simple Grunt Boilerplate for new HTML5 projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gix075/easyGrunt.git"
+  },
+  "keywords": [
+    "sass",
+    "boilerplate",
+    "sass",
+    "boilerplate",
+    "css",
+    "html5",
+    "style",
+    "grunt"
+  ],
+  "author": "Gix075",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gix075/easyGrunt/issues"
+  },
+  "homepage": "https://github.com/Gix075/easyGrunt#readme",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-htmlmin": "^2.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-processhtml": "^0.4.1"
+  },
+  "project": {
+    "src": "project_src",
+    "dist": "project_dist",
+    "css_basename": "style",
+    "scss_basename": "style"
+  }
+}

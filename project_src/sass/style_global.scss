@@ -1,0 +1,232 @@
+/*  
+ *  ***************************************************
+ *  SIMPLE.SASS
+ *  ***************************************************
+ *  Simple SASS Boilerplate based on HTML5 Boilerplate 
+ *  ***************************************************
+
+ *  GLOBAL FILE
+*/
+
+@import '_variables';
+@import '_mixins';
+
+
+/* ==========================================================================
+   BODY
+   ========================================================================== */
+
+html {
+    color: $font_base_color;
+    font-size: $font_base_size;
+    line-height: $font_base_lineheight;
+}
+
+body {
+    margin: $body_margin;
+    padding: $body_padding;
+    font-family: $font_base;
+    font-weight: $font_base_weight;
+    font-size: $font_base_size;
+    font-color: $font_base_color;
+    line-height: $font_base_lineheight;
+}
+
+/* Standard Links */
+/* **************************************** */
+ 
+a:link {
+    color: $link_color;
+    text-decoration: $link_decoration;
+    @include transition(color,0.2s,ease);
+}
+ 
+a:visited {
+    color: $link_color_visited;
+    text-decoration: $link_decoration_visited;
+}
+ 
+a:hover {
+    color: $link_color_hover;
+    text-decoration: $link_decoration_hover;
+}
+ 
+a:active {
+    color: $link_color_active;
+    text-decoration: $link_decoration_active;
+}
+ 
+a:focus { 
+    outline: link_outline_focus; 
+    color: $link_color_focus;
+    text-decoration: $link_decoration_focus;
+}
+
+/* Selection */
+/* **************************************** */
+::-moz-selection {
+    background: $text_selection_bgcolor;
+    text-shadow: $text_selection_textshadow;
+}
+
+::selection {
+    background: $text_selection_bgcolor;
+    text-shadow: $text_selection_textshadow;
+}
+
+/* Box-Sizing */
+/* **************************************** */
+* {
+    @include boxsizing(border-box);
+}
+
+/* HR */
+/* **************************************** */
+hr {
+    display: block;
+    height: $hr_height;
+    border: 0;
+    border-top: $hr_border_width $hr_border_style $hr_border_color;
+    margin: $hr_margin_top 0 $hr_margin_bottom 0;
+    padding: 0;
+}
+ 
+/* Elements */
+/* **************************************** */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+strong {
+    font-weight: $font_base_strong_weight;
+}
+
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: $h1_font;
+    padding: $h1_padding;
+    margin: $h1_margin;
+    line-height: $h_default_lineheight;
+    font-weight: $h_default_fontweight;
+    small {
+        color: $h1_small_color;
+        font-size: $h1_small_size;
+    }
+}
+
+h1 {
+    font-family: $h1_font;
+    font-size: $h1_size;
+    font-weight: $h1_fontwheigth;
+    color: $h1_color;
+    padding: $h1_padding;
+    margin: $h1_margin;
+    small {
+        color: $h1_small_color;
+        font-size: $h1_small_size;
+    }
+}
+
+h2 {
+    font-family: $h2_font;
+    font-size: $h2_size;
+    font-weight: $h2_fontwheigth;
+    color: $h2_color;
+    padding: $h2_padding;
+    margin: $h2_margin;
+    small {
+        color: $h2_small_color;
+        font-size: $h2_small_size;
+    }
+}
+
+h3 {
+    font-family: $h3_font;
+    font-size: $h3_size;
+    font-weight: $h3_fontwheigth;
+    color: $h3_color;
+    padding: $h3_padding;
+    margin: $h3_margin;
+    small {
+        color: $h3_small_color;
+        font-size: $h3_small_size;
+    }
+}
+
+h4 {
+    font-family: $h4_font;
+    font-size: $h4_size;
+    font-weight: $h4_fontwheigth;
+    color: $h4_color;
+    padding: $h4_padding;
+    margin: $h4_margin;
+    small {
+        color: $h4_small_color;
+        font-size: $h4_small_size;
+    }
+}
+
+h5 {
+    font-family: $h5_font;
+    font-size: $h5_size;
+    font-weight: $h5_fontwheigth;
+    color: $h5_color;
+    padding: $h5_padding;
+    margin: $h5_margin;
+    small {
+        color: $h5_small_color;
+        font-size: $h5_small_size;
+    }
+}
+
+h6 {
+    font-family: $h6_font;
+    font-size: $h6_size;
+    font-weight: $h6_fontwheigth;
+    color: $h6_color;
+    padding: $h6_padding;
+    margin: $h6_margin;
+    small {
+        color: $h6_small_color;
+        font-size: $h6_small_size;
+    }
+}
+
+p {
+    font-size: $p_size;
+    font-color: $p_color;
+    line-height: $p_lineheight;
+    padding: $p_padding;
+    margin: $p_margin;
+}

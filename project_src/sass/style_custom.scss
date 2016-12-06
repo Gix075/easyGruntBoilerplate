@@ -1,0 +1,73 @@
+/*  
+ *  ***************************************************
+ *  SIMPLE.SASS
+ *  ***************************************************
+ *  Simple SASS Boilerplate based on HTML5 Boilerplate 
+ *  ***************************************************
+
+ *  CUSTOM STYLE FILE
+*/
+
+
+@import '_variables';
+@import '_mixins';
+
+
+/* =========================================================== 
+    Place here you custom style. 
+    Here you can access to  all SASS variables and mixins.
+=========================================================== */
+
+/*  WARNING !!!!!!!!!!!
+    -------------------------
+    The following code is only a simple demo of boilerplate usage
+    and is used only to style the index.html file.
+    You can replace it with your own code. */
+
+body {
+    font-family: $font_custom_2;
+}
+
+nav {
+    background: $color_1;
+    ul {
+        @include resetlist();
+        li {
+            display: inline-block;
+            line-height: $space;
+            margin-right: $space/4;
+            a {
+                display: block;
+                color: $color_2!important;
+            }
+        }
+    }
+}
+
+header {
+    padding: $space 0;
+    background: $gray_light;
+    border-bottom: 5px solid $color_2;
+    h1 {
+        font-weight: 700;
+        font-size: 7vw;
+        line-height: 0.8em;
+        margin: 0;
+        color: $color_2;
+        small {
+            flex-direction: block;
+            font-weight: 300;
+            color: $color_2;
+            font-size: 0.3em;
+            line-height: 1em;
+        }
+    }
+}
+
+h2 {
+    color: $color_2;
+}
+
+code {
+    color: $gray_middle;
+}
