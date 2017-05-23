@@ -38,8 +38,8 @@
     "grunt-processhtml": "^0.4.1"
   },
   "project": {
-    "src": "project_src",
-    "dist": "project_dist",
+    "src": "project_src/",
+    "dist": "project_dist/",
     "css_basename": "style",
     "scss_basename": "style"
   }

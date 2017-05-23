@@ -1,0 +1,248 @@
+/*  
+ *  ***************************************************
+ *  SIMPLE.SASS
+ *  ***************************************************
+ *  Simple SASS Boilerplate based on HTML5 Boilerplate 
+ *  ***************************************************
+
+ *  GLOBAL FILE
+*/
+/*  
+ *  ***************************************************
+ *  SIMPLE.SASS
+ *  ***************************************************
+ *  Simple SASS Boilerplate based on HTML5 Boilerplate 
+ *  ***************************************************
+
+ *  VARIABLES FILE
+*/
+/*  
+ *  ***************************************************
+ *  SIMPLE.SASS
+ *  ***************************************************
+ *  Simple SASS Boilerplate based on HTML5 Boilerplate 
+ *  ***************************************************
+
+ *  MIXINS FILE
+*/
+/* ==========================================================================
+   BODY
+   ========================================================================== */
+html {
+  color: #333;
+  font-size: 16px;
+  line-height: 1em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-color: #333;
+  line-height: 1em;
+}
+
+/* Standard Links */
+/* **************************************** */
+a:link {
+  color: #212121;
+  text-decoration: none;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease;
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+a:visited {
+  color: #2e2c2c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2e2c2c;
+  text-decoration: none;
+}
+
+a:active {
+  color: #2e2c2c;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: link_outline_focus;
+  color: #2e2c2c;
+  text-decoration: none;
+}
+
+/* Selection */
+/* **************************************** */
+::-moz-selection {
+  background: #efefef;
+  text-shadow: none;
+}
+
+::selection {
+  background: #efefef;
+  text-shadow: none;
+}
+
+/* Box-Sizing */
+/* **************************************** */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* HR */
+/* **************************************** */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 20px 0 20px 0;
+  padding: 0;
+}
+
+/* Elements */
+/* **************************************** */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  padding: 0;
+  margin: 0 0 1em 0;
+  line-height: 1em;
+  font-weight: 700;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  color: #999;
+  font-size: 0.5em;
+}
+
+h1 {
+  font-family: inherit;
+  font-size: 2.2em;
+  font-weight: 700;
+  color: inherit;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+h1 small {
+  color: #999;
+  font-size: 0.5em;
+}
+
+h2 {
+  font-family: inherit;
+  font-size: 2em;
+  font-weight: 700;
+  color: inherit;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+h2 small {
+  color: #999;
+  font-size: 0.5em;
+}
+
+h3 {
+  font-family: inherit;
+  font-size: 1.8em;
+  font-weight: 700;
+  color: inherit;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+h3 small {
+  color: #999;
+  font-size: 0.5em;
+}
+
+h4 {
+  font-family: inherit;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: inherit;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+h4 small {
+  color: #999;
+  font-size: 0.5em;
+}
+
+h5 {
+  font-family: inherit;
+  font-size: 1.3em;
+  font-weight: 700;
+  color: inherit;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+h5 small {
+  color: #999;
+  font-size: 0.5em;
+}
+
+h6 {
+  font-family: inherit;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: inherit;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+h6 small {
+  color: #999;
+  font-size: 0.5em;
+}
+
+p {
+  font-size: inherit;
+  font-color: inherit;
+  line-height: 1.4em;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+
+/*# sourceMappingURL=style_global.css.map */

@@ -1,0 +1,143 @@
+@import '_variables';
+@import '_variables_automotive';
+@import '_mixins';
+
+
+/* ========================================= */
+/* Bootstrap Elements Override */
+/* ========================================= */
+
+.btn {
+    &.btn-primary {
+        background: $color-1!important;
+        border-color: $color-1!important;
+        color: $white;
+        @include transition(all,0.2s,ease);
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        &:hover {
+            background: $color-1_hover!important;
+        }
+    }
+}
+
+/* ========================================= */
+/* Automotive Style */
+/* ========================================= */
+
+body {
+    font-family: $font_custom_1;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: $font_custom_2;
+    color: $color_1;
+}
+
+.cover-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.component__main-header {
+    @include ratio_custom(30%);
+    .component__main-header-inner {
+        @include ratio-content;
+        .component__main-header-text {
+            position: absolute;
+            @include place(50%,0,auto,0);
+            @include translate-50Y;
+            .main-title {
+                font-size: 5em;
+                margin: 0 0 $margin/4 0;
+                color: $white;
+                text-transform: uppercase;
+                span {
+                    color: $color_1;
+                }
+            }
+            
+            .main-subtitle {
+                font-size: 2em;
+                color: $white;
+            }
+            
+            .main-cta {
+                
+                .btn {
+                    font-size: 2em;
+                    padding: 10px 20px; 
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+            }
+        }
+        
+    }
+    &.cover-background {
+        background-image: url('../img/stock-photo-studio-shot-of-black-car-isolated-on-black-background-622093715.jpg');
+    }
+}
+
+
+.component__main-products {
+    margin-top: $margin*2;
+    .component__main-products-inner {
+        .component__main-products-item {
+            .component__main-products-item-inner {
+                .product-image {
+                    img {
+                        width: 100%;
+                    }
+                    margin-bottom: $margin/4;
+                }
+                .product-text {
+                    .product-title {}
+                    .product-desc {
+                        font-weight: 300;
+                        font-style: italic;
+                        margin-bottom: $margin/4;
+                    }
+                    .product-price {
+                        
+                        position: relative;
+                        
+                        .current-price {
+                            font-size: 1.5em;
+                            font-weight: 700;
+                            color: $color-1;
+                            margin-bottom: $margin/4;
+                        }
+                        
+                        .old-price {
+                            text-decoration: line-through;
+                        }
+                        
+                        .discount {
+                            position: absolute;
+                            background: $color-1;
+                            color: $white;
+                            top: 0;
+                            right: 0;
+                            left: auto;
+                            bottom: auto;
+                            width: 70px;
+                            height: 70px;
+                            line-height: 70px;
+                            text-align: center;
+                            border-radius: 50%;
+                            font-size: 1.5em;
+                            font-weight: 700;
+                            -webkit-transform: rotate(-15deg);
+                                    transform: rotate(-15deg);
+                        }
+                    }
+                    .product-cta {
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+    }
+}

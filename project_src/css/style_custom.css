@@ -7,19 +7,32 @@
 
  *  CUSTOM STYLE FILE
 */
+/*  
+ *  ***************************************************
+ *  SIMPLE.SASS
+ *  ***************************************************
+ *  Simple SASS Boilerplate based on HTML5 Boilerplate 
+ *  ***************************************************
 
+ *  VARIABLES FILE
+*/
+/*  
+ *  ***************************************************
+ *  SIMPLE.SASS
+ *  ***************************************************
+ *  Simple SASS Boilerplate based on HTML5 Boilerplate 
+ *  ***************************************************
 
-@import '_variables';
-@import '_mixins';
-
-
+ *  MIXINS FILE
+*/
 /* =========================================================== 
     Place here you custom style. 
     Here you can access to  all SASS variables and mixins.
 =========================================================== */
-
 /*  WARNING !!!!!!!!!!!
     -------------------------
     The following code is only a simple demo of boilerplate usage
     and is used only to style the index.html file.
     You can replace it with your own code. */
+
+/*# sourceMappingURL=style_custom.css.map */

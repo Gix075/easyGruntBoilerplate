@@ -1,0 +1,30 @@
+{
+  "name": "superlandings",
+  "description": "Simple system for landings",
+  "main": "index.js",
+  "authors": [
+    "Gix075"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "sass",
+    "boilerplate",
+    "sass",
+    "boilerplate",
+    "css",
+    "html5",
+    "style",
+    "grunt"
+  ],
+  "homepage": "https://github.com/Gix075/easyGruntBoilerplate",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "html5-boilerplate": "^5.3.0"
+  }
+}

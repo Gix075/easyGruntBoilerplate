@@ -11,9 +11,10 @@ module.exports = function (grunt) {
                     style: 'expanded'
                 },
                 files: { 
-                    '<%= pkg.project.dist %>css/<%= pkg.project.css_basename %>_global.css': '<%= pkg.project.src %>sass/<%= pkg.project.scss_basename %>_global.scss', 
-                    '<%= pkg.project.dist %>css/<%= pkg.project.css_basename %>_custom.css': '<%= pkg.project.src %>sass/<%= pkg.project.scss_basename %>_custom.scss', 
-                    '<%= pkg.project.dist %>css/<%= pkg.project.css_basename %>_utilities.css': '<%= pkg.project.src %>sass/<%= pkg.project.scss_basename %>_utilities.scss'
+                    '<%= pkg.project.src %>css/<%= pkg.project.css_basename %>_global.css': '<%= pkg.project.src %>sass/<%= pkg.project.scss_basename %>_global.scss', 
+                    '<%= pkg.project.src %>css/<%= pkg.project.css_basename %>_custom.css': '<%= pkg.project.src %>sass/<%= pkg.project.scss_basename %>_custom.scss', 
+                    '<%= pkg.project.src %>css/<%= pkg.project.css_basename %>_automotive.css': '<%= pkg.project.src %>sass/<%= pkg.project.scss_basename %>_automotive.scss',
+                    '<%= pkg.project.src %>css/<%= pkg.project.css_basename %>_utilities.css': '<%= pkg.project.src %>sass/<%= pkg.project.scss_basename %>_utilities.scss'
                 }
             },
             dist: { 

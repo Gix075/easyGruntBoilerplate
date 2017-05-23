@@ -175,6 +175,15 @@
     }
 }
 
+@mixin ratio_custom($percentage) {
+    position: relative;
+    &:before {
+        content: "";
+        display: block;
+        padding-top: $percentage;
+    }
+}
+
 @mixin ratio_content {
     position: absolute;
     top: 0;

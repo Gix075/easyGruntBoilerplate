@@ -1,0 +1,152 @@
+/*  
+ *  ***************************************************
+ *  SIMPLE.SASS
+ *  ***************************************************
+ *  Simple SASS Boilerplate based on HTML5 Boilerplate 
+ *  ***************************************************
+
+ *  VARIABLES FILE
+*/
+/*  
+ *  ***************************************************
+ *  SIMPLE.SASS
+ *  ***************************************************
+ *  Simple SASS Boilerplate based on HTML5 Boilerplate 
+ *  ***************************************************
+
+ *  MIXINS FILE
+*/
+/* ========================================= */
+/* Bootstrap Elements Override */
+/* ========================================= */
+.btn.btn-primary {
+  background: #e80c0c !important;
+  border-color: #e80c0c !important;
+  color: #fff;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn.btn-primary:hover {
+  background: #e80c0c !important;
+}
+
+/* ========================================= */
+/* Automotive Style */
+/* ========================================= */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Anton", sans-serif;
+  color: #e80c0c;
+}
+
+.cover-background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.component__main-header {
+  position: relative;
+}
+.component__main-header:before {
+  content: "";
+  display: block;
+  padding-top: 30%;
+}
+.component__main-header .component__main-header-inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.component__main-header .component__main-header-inner .component__main-header-text {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  bottom: auto;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.component__main-header .component__main-header-inner .component__main-header-text .main-title {
+  font-size: 5em;
+  margin: 0 0 10px 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+.component__main-header .component__main-header-inner .component__main-header-text .main-title span {
+  color: #e80c0c;
+}
+.component__main-header .component__main-header-inner .component__main-header-text .main-subtitle {
+  font-size: 2em;
+  color: #fff;
+}
+.component__main-header .component__main-header-inner .component__main-header-text .main-cta .btn {
+  font-size: 2em;
+  padding: 10px 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.component__main-header.cover-background {
+  background-image: url("../img/stock-photo-studio-shot-of-black-car-isolated-on-black-background-622093715.jpg");
+}
+
+.component__main-products {
+  margin-top: 80px;
+}
+.component__main-products .component__main-products-inner .component__main-products-item .component__main-products-item-inner .product-image {
+  margin-bottom: 10px;
+}
+.component__main-products .component__main-products-inner .component__main-products-item .component__main-products-item-inner .product-image img {
+  width: 100%;
+}
+.component__main-products .component__main-products-inner .component__main-products-item .component__main-products-item-inner .product-text .product-desc {
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.component__main-products .component__main-products-inner .component__main-products-item .component__main-products-item-inner .product-text .product-price {
+  position: relative;
+}
+.component__main-products .component__main-products-inner .component__main-products-item .component__main-products-item-inner .product-text .product-price .current-price {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #e80c0c;
+  margin-bottom: 10px;
+}
+.component__main-products .component__main-products-inner .component__main-products-item .component__main-products-item-inner .product-text .product-price .old-price {
+  text-decoration: line-through;
+}
+.component__main-products .component__main-products-inner .component__main-products-item .component__main-products-item-inner .product-text .product-price .discount {
+  position: absolute;
+  background: #e80c0c;
+  color: #fff;
+  top: 0;
+  right: 0;
+  left: auto;
+  bottom: auto;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 1.5em;
+  font-weight: 700;
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+.component__main-products .component__main-products-inner .component__main-products-item .component__main-products-item-inner .product-text .product-cta {
+  margin-top: 40px;
+}
+
+/*# sourceMappingURL=style_automotive.css.map */
